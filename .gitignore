@@ -1,0 +1,42 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Build artifacts
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+!archive/dist/
+
+# Data provided by the user (see "Project Initialization")
+input/*
+!input/README.md
+!input/.gitkeep
+
+# External reference files: only the catalog is committed (see "External Reference Management")
+references/*
+!references/catalog.csv
+!references/README.md
+archive/references/*
+!archive/references/.gitkeep
+
+# テストの出力 (テスト用ブックと結果)
+tests/out/
+
+# 実データを読み込んだブック (患者単位のデータが入りうるのでコミットしない)
+*.xlsm
+*.xlsx
+!tests/fixtures/*.xlsx
