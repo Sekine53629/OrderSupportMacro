@@ -58,3 +58,7 @@ pwsh -File tests/run-tests.ps1     # Excel で計算のテストを実行する 
 - `src/` を直したら `build` してから `modules/` も一緒にコミットする。
 - `ErrorLogger.bas` は `GitHub/VBA/ErrorLogger.bas`（共有モジュール）のコピー。ここでは直さない。
 - エリシアSの出力の列は、実ファイルを `GitHub/VBA/FileLayoutAnalyzer` で分析して確かめる（報告には値が出ない）。
+
+## ライセンス
+
+[MIT License](LICENSE)
